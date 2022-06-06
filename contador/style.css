@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+}
+h1{
+    text-transform: uppercase;
+}
+h3{
+    font-style: italic;
+}
+.contador{
+    font-size: 2rem;
+}
+.contador button{
+    border-radius: 50%;
+    font-size: 2rem;
+    width: 2.5rem;
+    border:none;
+    background-color: rgb(0, 5, 69);
+    color:white;
+    cursor:pointer;
+    transition:0.4s;
+}
+.contador button:hover{
+    box-shadow: 0 8px 8px 0 white;
+}
+.contador button:active{
+    background-color: rgb(0, 85, 255);
+    box-shadow: none;
+}
