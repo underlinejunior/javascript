@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: rgb(89, 89, 89);
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:2rem 0;
+    padding:2rem 0;
+}
+.title{
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+#counter, #counter>span{
+    background-color: white;
+    color:#000;
+    text-align: center;
+    margin-bottom:1rem;
+    border-radius: 1rem;
+
+}
+#counter #hour,
+#counter #min,
+#counter #sec,
+#counter #dec{
+    background: transparent;
+    color:black;
+    font-size: 2rem;
+}
+#counter #dec{
+    font-size:1rem;
+    padding-right: 1rem;
+}
+#counter #hour{
+    padding-left: 1rem;
+}
+
+.buttons >button{
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0 0.1rem;
+    border:none;
+    box-shadow: 2px 2px 10px #000;
+    color:black;
+    transition:ease-in-out 0.5s;
+    filter:grayscale(0.7); 
+    
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.buttons >button:hover{
+    box-shadow: 2px 2px 10px #fff;
+    filter:none;
+    color:white;
+    font-weight: bold;
+}
+.buttons >button:active{
+    box-shadow:none;
+    filter:none;
+}
+#start{
+    background-color:rgb(0, 236, 0);
+}
+#pause{
+    background-color: rgb(255, 0, 0);
+}
+footer{
+    margin-top:2rem;
+    padding-top:2rem;
+    font-style: italic;
+    color:rgb(168, 168, 168);
+}
