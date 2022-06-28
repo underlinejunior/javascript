@@ -7,28 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <title>Cronometro</title>
+    <title>cronometer</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="title">
-            <h1>Cronometro</h1>
-        </div>
-        <div id="counter">
-            <span id="hour">00</span>h
-            <span id="min">00</span>m
-            <span id="sec">00</span>s
-            <span id="dec">00</span>
-        </div>
-        <div class="buttons">
+        <header class="title">
+            <h1>Cronometer</h1>
+        </header>
+        <section id="counter">
+            <div><h4 id="hour">00</h4><span>hours</span></div>
+            <div><h4 id="min">00</h4><span>minutes</span></div>
+            <div><h4 id="sec">00</h4><span>seconds</span></div>
+            <div><h4 id="dec">00</h4></div>
+            
+        </section>
+        <section class="buttons">
             <button id="start">Start</button>
             <button id="pause">Pause</button>
             <button id="reset">Reset</button>
-        </div>
+        </sections>
 
-        <footer>Feito por Evaldo Júnior</footer>
     </div>
+    <footer>Design by Evaldo Júnior</footer>
 </body>
 
 </html>

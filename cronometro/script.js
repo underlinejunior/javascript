@@ -41,7 +41,7 @@ window.onload = function () {
         if (dec > 9) {
             appendDec.innerHTML = dec;
         }
-        if (dec > 99) {
+        if (dec >= 99) {
             console.log("seconds");
             sec++;
             appendSec.innerHTML = "0" + sec;

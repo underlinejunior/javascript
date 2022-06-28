@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+section{
+    width: 90vw;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.counter-format{
+    background-color: rgb(1, 33, 59);
+    color:white;
+    margin-left: 1rem;
+    padding:0 1rem;
+    text-transform: uppercase;
+}
+.counter-format>div>h4{
+    font-size: 2rem;
+    margin:0;
+}
+.counter-format>div>span{
+    font-size:0.7rem;
+}
+.ops{
+    color:red;
+    font-size: 4rem;
+}
+.none{
+    display: none;
+    opacity: 0;
+}
